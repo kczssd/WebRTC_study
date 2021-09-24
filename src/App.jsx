@@ -1,11 +1,22 @@
 import React, { useState, useEffect } from 'react';
+import {Switch,Route,Link} from 'react-router-dom';
 import './App.css';
+
+import EnumerateDevices from './components/enumerateDevices';
+import Home from './components/home';
 
 function App() {
   
   return (
-    <div className="App">
-     hello
+    <div>
+      <Switch>
+        <Route path="/enumerate" >
+          <EnumerateDevices />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
     </div>
   );
 }
