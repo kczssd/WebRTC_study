@@ -4,7 +4,7 @@ import './App.css';
 
 import EnumerateDevices from './components/enumerateDevices';
 import Home from './components/home';
-
+import Camera from './components/camera';
 function App() {
   
   return (
@@ -12,6 +12,9 @@ function App() {
       <Switch>
         <Route path="/enumerate" >
           <EnumerateDevices />
+        </Route>
+        <Route path="/camera" >
+          <Camera />
         </Route>
         <Route path="/">
           <Home />
