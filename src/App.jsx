@@ -6,6 +6,7 @@ import EnumerateDevices from './components/enumerateDevices';
 import Home from './components/home';
 import Camera from './components/camera';
 import Record from './components/recordAudio';
+import Video from './components/displayMedia';
 function App() {
   
   return (
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route path="/record">
           <Record />
+        </Route>
+        <Route path="/video">
+          <Video />
         </Route>
         <Route path="/">
           <Home />

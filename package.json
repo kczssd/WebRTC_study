@@ -2,6 +2,7 @@
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
+    "electron-start":"electron .",
     "test": "web-test-runner \"src/**/*.test.jsx\"",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "prettier --check \"src/**/*.{js,jsx}\""
@@ -18,7 +19,19 @@
     "@testing-library/react": "^11.2.6",
     "@web/test-runner": "^0.13.3",
     "chai": "^4.3.4",
+    "electron": "^15.0.0",
     "prettier": "^2.2.1",
     "snowpack": "^3.3.7"
-  }
+  },
+  "name": "webrtc",
+  "description": "> ✨ Bootstrapped with Create Snowpack App (CSA).",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kczssd/rtc_study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

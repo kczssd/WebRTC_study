@@ -8,6 +8,7 @@ export default function home() {
             <Link to="/enumerate"> 麦克风权限 </Link>
             <Link to="/camera"> 摄像头权限 </Link>
             <Link to="/record"> 录制 </Link>
+            <Link to="/video"> 屏幕录制 </Link>
         </div>
     )
 }
