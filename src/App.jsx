@@ -5,6 +5,7 @@ import './App.css';
 import EnumerateDevices from './components/enumerateDevices';
 import Home from './components/home';
 import Camera from './components/camera';
+import Record from './components/recordAudio';
 function App() {
   
   return (
@@ -15,6 +16,9 @@ function App() {
         </Route>
         <Route path="/camera" >
           <Camera />
+        </Route>
+        <Route path="/record">
+          <Record />
         </Route>
         <Route path="/">
           <Home />
